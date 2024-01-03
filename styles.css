@@ -1,0 +1,46 @@
+body {
+  background-color: #090E16;
+  padding: 38px 20px;
+  max-width: 1640px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 16px;
+  background: rgba(123, 74, 226, 0.05);
+  padding: 11px 24px 12px;
+
+  .header-items {
+    display: flex;
+    gap: 16px;
+
+    a {
+      font-family: Raleway;
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.50);
+      text-decoration: none;
+
+      &:hover {
+        color: rgba(123, 74, 226, 0.90);
+      }
+    }
+
+    .active {
+      font-weight: 700;
+      color: rgba(123, 74, 226, 0.50);
+      text-decoration: underline;
+
+    }
+  }
+}
+
+main {
+  .title {
+    color: white;
+    font-size: 50px;
+  }
+}
